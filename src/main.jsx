@@ -15,7 +15,7 @@ function App() {
   const [toast, setToast] = useState('');
   const [notificationsOpen, setNotificationsOpen] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const account = 'Priya Shah';
+  const account = 'Om';
 
   const notify = (message) => { setToast(message); window.setTimeout(() => setToast(''), 2800); };
   return <div className="app-shell">
