@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import { ArrowUpRight, Bell, Bike, Box, Car, Check, ChevronRight, CircleHelp, Clock3, IndianRupee, Leaf, MapPin, Menu, Navigation, PackageCheck, Plus, Route, ShieldCheck, Sparkles, Star, UserRound, Users, WalletCards, X } from 'lucide-react';
 import './styles.css';
 
@@ -130,4 +131,4 @@ function BookingModal({ onClose, onFind }) {
 
 SendModal = BookingModal;
 
-createRoot(document.getElementById('root')).render(<App />);
+createRoot(document.getElementById('root')).render(<BrowserRouter basename={import.meta.env.BASE_URL}><App /></BrowserRouter>);
