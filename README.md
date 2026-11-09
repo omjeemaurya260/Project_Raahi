@@ -14,6 +14,7 @@ The result is a delivery model designed around **shared journeys, route compatib
 
 ## 1. Problem Statement
 
+
 ### The Last-Mile Delivery Problem
 
 Last-mile delivery is the final movement of a parcel from a local shop, hub, or pickup location to the recipient. It is one of the most difficult parts of the delivery process because a separate vehicle or delivery partner may need to make an additional trip for every individual parcel.
